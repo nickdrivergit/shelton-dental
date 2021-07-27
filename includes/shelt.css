@@ -2,16 +2,22 @@
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   width: 400px;
-  height: 30vh;
+  height: 25vh;
   padding: 0%;
 }
 
+.card-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
 .colour1 {
   background-color: #68a79d;
 }
 
 .colour2 {
+  background-color: #858886;
 }
 
-.colour2 {
+.colour3 {
+  background-color: #b7d7c6;
 }
