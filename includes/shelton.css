@@ -1,0 +1,67 @@
+.card {
+  border-radius: 0;
+  font-family: "gotham";
+  font-weight: 600;
+  height: 25vh;
+  padding: 1%;
+  width: 490px;
+}
+
+.card-title {
+  font-family: "lemon-milk";
+  font-weight: 600;
+}
+.colour1 {
+  background-color: #68a79d !important;
+}
+
+.colour2 {
+  background-color: #858886 !important;
+}
+
+.colour3 {
+  background-color: #b7d7c6 !important;
+}
+
+.thingy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 100vw;
+    opacity: 60%;
+    font-size: 1.5vh;
+    height: 30vh;
+    background-color: #b7d7c6 !important;
+  }
+  .thingy {
+    position: fixed !important;
+    margin-top: 0 !important;
+  }
+  .card-title {
+    font-size: 3vh;
+  }
+  .body {
+    background-attachment: local;
+    background-position: top;
+  }
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url("gotham.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "lemon-milk";
+  src: url("lemon-milk.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "minion";
+  src: url("minion.woff2") format("woff2");
+}
